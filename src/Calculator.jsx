@@ -9,7 +9,7 @@ const Calculator = () => {
         setValue("")
     }
     const calculateNumber=()=>{
-        setValue(eval(value).toString())
+        setValue(eval(value))
     }
     const deleteLast =()=>{
         setValue(value.slice(0, -1))
